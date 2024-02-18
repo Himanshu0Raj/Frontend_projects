@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(to right, #434343 0%, black 100%);
+}
+#main{
+    height: 650px;
+    width: 100%;
+   background: linear-gradient(to right, #8e9eab, #eef2f3);
+    object-fit: cover;
+    /* border-bottom: 2px solid rgb(35, 50, 114); */
+    box-shadow: 5px 5px 5px 5px whitesmoke;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+   
+    background: transparent;
+}
+#navleft{
+    display: flex;
+    justify-content: center;
+   
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    width: 300px;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    background-position: center;
+    background: url(https://designshack.net/wp-content/uploads/best-watercolor-backgrounds.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+   
+}
+#navleft h1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#navleft h1:hover{
+    border: 1.5px solid aqua;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#navright{
+    width: 600px;
+    
+    margin-right: 15px;
+    justify-content: center;
+    display: flex;
+   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    background-color: rgb(170, 165, 165);
+    border-radius: 20px;
+    padding: 5px;
+
+}
+#navright h2{
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+#navright h2:hover{
+    background-color: white;
+    
+    border: 1.5px solid white;
+    border-radius: 30px;
+}
+#profile{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 5px solid rgb(137, 137, 136);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#myself {
+    padding-top: 5px;   
+    padding-bottom: 5px;
+    padding-left: 10px ;  
+    padding-right: 10px ; 
+    border-radius: 30px;
+    border: 3px solid rgb(0, 0, 0) ; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(58, 58, 58);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#dec{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    text-decoration:underline;
+}
+#project-sec h1{
+    display: flex;
+    justify-content: center;
+   width: 150px;
+   margin-left: 45%;
+   
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    
+   
+}
+#projects{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 800px;
+}
+#project1{
+    margin: 20px;
+    width: 290px;
+    height: 390px;
+    background-color: #eef2f3;
+    border: 4px solid rgb(186, 167, 167);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+}
+#project1 img{
+   
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+   
+    
+}
+#project1 h2{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(89, 104, 104);
+    width: 200px;
+    margin-left:40px ;
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 30px;
+
+}
+#project1 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+#project2{
+    margin: 20px;
+    width: 290px;
+    height: 390px;
+    background-color: #eef2f3;
+    border: 4px solid rgb(186, 167, 167);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+   
+}
+#project2 img{
+   
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+   
+    
+}
+#project2 h2{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(89, 104, 104);
+    width: 200px;
+    margin-left:40px ;
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 30px;
+
+}
+#project2 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+#project3{
+    margin: 20px;
+    width: 290px;
+    height: 390px;
+    background-color: #eef2f3;
+    border:4px solid rgb(186, 167, 167);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+}
+#project3 img{
+   
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+   
+    
+}
+#project3 h2{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(89, 104, 104);
+    width: 200px;
+    margin-left:40px ;
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 30px;
+
+}
+#project3 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+#project4{
+    margin: 20px;
+    width: 290px;
+    height: 390px;
+    background-color: #eef2f3;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+    border: 4px solid rgb(186, 167, 167);
+    border-radius: 20px;
+   
+}
+#project4 img{
+   
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+   
+    
+}
+#project4 h2{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(89, 104, 104);
+    width: 200px;
+    margin-left:40px ;
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 30px;
+
+}
+#project4 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
